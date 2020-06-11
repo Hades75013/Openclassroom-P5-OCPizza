@@ -1,0 +1,383 @@
+INSERT INTO public.point_de_vente VALUES (1, 'Rome', '18, rue du Moulinet 75013 PARIS', '0145822331', 'ocprome@gmail.com', 'Mr ICARDI');
+INSERT INTO public.point_de_vente VALUES (2, 'Milan', '30, blvd des Acacias 75009 PARIS', '0145785205', 'ocpmilan@gmail.com', 'Mme FERNANDEZ');
+INSERT INTO public.point_de_vente VALUES (3, 'Turin', '62, ave Leclerc 75014 PARIS', '0145696301', 'ocpturin@gmail.com', 'Mr FOURNIER');
+INSERT INTO public.point_de_vente VALUES (4, 'Venise', '47, ave d_Italie 75013 PARIS', '0145825413', 'ocpvenise@gmail.com', 'Mme CHANTOME');
+INSERT INTO public.point_de_vente VALUES (5, 'Genes', '23, blvd Montmartre 75018 PARIS', '0145448899', 'ocpgenes@gmail.com', 'Mr MADAR');
+INSERT INTO public.point_de_vente VALUES (6, 'Naples', '10, Place Belcourt 69002 LYON', '0437450450', 'ocpnaples@gmail.com', 'Mme LACOMBE');
+INSERT INTO public.point_de_vente VALUES (7, 'Florence', '82, Quai Bacalan 33000 BORDEAUX', '0556584753', 'ocpflorence@gmail.com', 'Mr LEGUEN');
+INSERT INTO public.point_de_vente VALUES (8, 'Verone', '54, rue du Couedic 44000 NANTES', '0272016663', 'ocpverone@gmail.com', 'Mr BLANC');
+
+
+
+
+INSERT INTO public.utilisateur VALUES (1,'DHORASSO', 'Vikash', 'Tatane', 'TataMaurice');
+INSERT INTO public.utilisateur VALUES (2,'OKOCHA', 'Augustine', 'JayJay', 'LoveNigeria');
+INSERT INTO public.utilisateur VALUES (3,'ICARDI', 'Mauro', 'MIcardi', 'NaraMiAmor');
+INSERT INTO public.utilisateur VALUES (4,'KALOU', 'Bonaventure', 'IvoryBomb', 'PatriciaKevin');
+INSERT INTO public.utilisateur VALUES (5,'BENARBIA', 'Ali', 'BenAli', 'Djazair');
+INSERT INTO public.utilisateur VALUES (6,'FERNANDEZ', 'Luisa', 'TarafaES', 'Europa96');
+INSERT INTO public.utilisateur VALUES (7,'MUKELE', 'Florent', 'BrazzaHeat', 'CongoZaire');
+INSERT INTO public.utilisateur VALUES (8,'HAKMOUNI', 'Samir', 'SamSamDZ', 'HaragaDZ');
+INSERT INTO public.utilisateur VALUES (9,'FOURNIER', 'Laurent', 'LoloFoufou', 'MichelleFrancois');
+INSERT INTO public.utilisateur VALUES (10,'BUFFON', 'Gianluigi', 'Maestro21', 'ForzaJuveItalia');
+INSERT INTO public.utilisateur VALUES (11,'VERGNIAUD', 'Sebastien', 'VernsJules', 'SpiritOfCourse');
+INSERT INTO public.utilisateur VALUES (12,'CHANTOME', 'Clemence', 'CleDesChamps', 'LePrinceCharmant');
+INSERT INTO public.utilisateur VALUES (13,'ROBICHON', 'Francois', 'Lamoureux', 'jackda');
+INSERT INTO public.utilisateur VALUES (14,'BELMADI', 'Djamel', 'BelmelDZ', 'TahiaDZChampion');
+INSERT INTO public.utilisateur VALUES (15,'MADAR', 'Mickael', 'Micamada', 'JewishWinner');
+INSERT INTO public.utilisateur VALUES (16,'LIETARD', 'Nicolas', 'NicoStrong', 'LeChat75013');
+INSERT INTO public.utilisateur VALUES (17,'BATTAIL', 'Pascal', 'Chacaloo', 'BibineForever');
+INSERT INTO public.utilisateur VALUES (18,'LACOMBE', 'Valerie', 'MacumbaVal', 'WestIndies972');
+INSERT INTO public.utilisateur VALUES (19,'CORLOBE', 'Maxime', 'Corlobedo', 'Ibiza33580');
+INSERT INTO public.utilisateur VALUES (20,'AMZAL', 'Camel', 'TheRock33', 'DjurdjuraKing');
+INSERT INTO public.utilisateur VALUES (21,'LEGUEN', 'Paul', 'BreizhMan', 'PancranForLife');
+INSERT INTO public.utilisateur VALUES (22,'BERBERIAN', 'Adrien', 'ForzaAdriano', 'Chelentano');
+INSERT INTO public.utilisateur VALUES (23,'JERBI', 'Aimen', 'LeZient44', 'TinjaMenzel');
+INSERT INTO public.utilisateur VALUES (24,'BLANC', 'Laurent', 'LPresidentB', 'Looser352');
+INSERT INTO public.utilisateur VALUES (25, 'GARADIER', 'Geoffroy', 'Lamoroso', 'Italiano');
+INSERT INTO public.utilisateur VALUES (26, 'SEVERAC', 'Dominique', 'LeParisien75', 'psg');
+INSERT INTO public.utilisateur VALUES (27, 'MOATTI', 'Etienne', 'LaHyene', 'TsahalForLife');
+INSERT INTO public.utilisateur VALUES (28, 'LIONS', 'Bernard', 'LionEDS', 'miaou');
+INSERT INTO public.utilisateur VALUES (29, 'ROUSTAN', 'Didier', 'ElPresidente', 'cubanito');
+INSERT INTO public.utilisateur VALUES (30, 'LATOURRE', 'Bertrand', 'Bambinodu16', 'dalida');
+INSERT INTO public.utilisateur VALUES (31, 'GALLI', 'Carine', 'BellaCiao', 'romantica');
+INSERT INTO public.utilisateur VALUES (32, 'SEBAOUN', 'Julien', 'JujuTheBoss', 'imthebest');
+INSERT INTO public.utilisateur VALUES (33, 'DENIS', 'Estelle', 'LaBombaPif', 'pifometre');
+INSERT INTO public.utilisateur VALUES (34, 'APPADOO', 'Dave', 'FFChief', 'mumbay');
+INSERT INTO public.utilisateur VALUES (35, 'CARRIERE', 'Eric', '10Poussin', 'suaudeau');
+INSERT INTO public.utilisateur VALUES (36, 'HANRIOT', 'Solene', 'Chouchette77', 'chouchou');
+INSERT INTO public.utilisateur VALUES (37, 'DACOURT', 'Olivier', 'SayNoRacism', 'forzainter');
+INSERT INTO public.utilisateur VALUES (38, 'KOMENDA', 'Alexis', 'TheArtist', 'komendatore');
+INSERT INTO public.utilisateur VALUES (39, 'GOUSSOT', 'Alexandre', 'PythonDeLaFournaise', 'manonlea');
+INSERT INTO public.utilisateur VALUES (40, 'SALESSES', 'Antoine', 'BussyLover', 'roussita');
+
+
+
+
+INSERT INTO public.personnel VALUES (1, 'preparateur', 1,1);
+INSERT INTO public.personnel VALUES (2, 'livreur',1,2);
+INSERT INTO public.personnel VALUES (3, 'gerant',1,3);
+INSERT INTO public.personnel VALUES (4, 'preparateur',2,4);
+INSERT INTO public.personnel VALUES (5, 'livreur',2,5);
+INSERT INTO public.personnel VALUES (6, 'gerant',2,6);
+INSERT INTO public.personnel VALUES (7, 'preparateur',3,7);
+INSERT INTO public.personnel VALUES (8, 'livreur',3,8);
+INSERT INTO public.personnel VALUES (9, 'gerant',  3,9);
+INSERT INTO public.personnel VALUES (10, 'preparateur', 4,10);
+INSERT INTO public.personnel VALUES (11, 'livreur', 4,11);
+INSERT INTO public.personnel VALUES (12, 'gerant',  4,12);
+INSERT INTO public.personnel VALUES (13, 'preparateur', 4,13);
+INSERT INTO public.personnel VALUES (14, 'livreur', 5,14);
+INSERT INTO public.personnel VALUES (15, 'gerant',5,15);
+INSERT INTO public.personnel VALUES (16, 'preparateur', 6,16);
+INSERT INTO public.personnel VALUES (17, 'livreur', 6,17);
+INSERT INTO public.personnel VALUES (18, 'gerant', 6,18);
+INSERT INTO public.personnel VALUES (19, 'preparateur', 7,19);
+INSERT INTO public.personnel VALUES (20, 'livreur',  7,20);
+INSERT INTO public.personnel VALUES (21, 'gerant', 7,21);
+INSERT INTO public.personnel VALUES (22, 'preparateur', 8,22);
+INSERT INTO public.personnel VALUES (23, 'livreur',  8,23);
+INSERT INTO public.personnel VALUES (24, 'gerant', 8,24);
+
+
+
+
+
+INSERT INTO public.client VALUES (1, '0625047758', 'Gigi789@hotmail.fr',25);
+INSERT INTO public.client VALUES (2, '0678244556', 'LeParisien75@gmail.com',26);
+INSERT INTO public.client VALUES (3, '0622548879', 'LaHyeneEDS@gmail.com',27);
+INSERT INTO public.client VALUES (4, '0678543201', 'Lionnard@hotmail.fr',28);
+INSERT INTO public.client VALUES (5, '0758123456', 'Vivalarevolucion@hotmail.com',29);
+INSERT INTO public.client VALUES (6, '0621450892', 'Bebert75016@gmail.com',30);
+INSERT INTO public.client VALUES (7, '0650217998', 'CaGalli@gmail.com',31);
+INSERT INTO public.client VALUES (8, '0622548879', 'BossEDE@hotmail.fr',32);
+INSERT INTO public.client VALUES (9, '0622548879', 'Tasdupif@gmail.com',33);
+INSERT INTO public.client VALUES (10,'0625997403', 'Vaninaaaaaa@gmail.com',34);
+INSERT INTO public.client VALUES (11,'0652545860', 'canari10@hotmail.com',35);
+INSERT INTO public.client VALUES (12,'0647852090', 'TartifletteBoobs@gmail.com',36);
+INSERT INTO public.client VALUES (13,'0651233330', 'MichocoBasta@gmail.com',37);
+INSERT INTO public.client VALUES (14,'0621450030', 'Gladiatore91@gmail.com',38);
+INSERT INTO public.client VALUES (15,'0625059566', 'PorteDanube@hotmail.fr',39);
+INSERT INTO public.client VALUES (16,'0620504499', 'ToinooonIDS75@gmail.com',40);
+
+
+
+
+
+
+
+
+
+INSERT INTO public.stock VALUES (1, 'produit', 'Salade fraicheur', 'NULL', 'LC Primeur', 5.0, 1);
+INSERT INTO public.stock VALUES (2, 'produit', 'Salade chevre chaud', 'NULL', 'LC Primeur', 5.0, 1);
+INSERT INTO public.stock VALUES (3, 'produit', 'Breadsticks mozza', 'NULL', 'Pomona', 10.0, 1);
+INSERT INTO public.stock VALUES (4, 'produit', 'Glace au choix', 'NULL', 'Pomona', 20.0, 1);
+INSERT INTO public.stock VALUES (5, 'produit', 'Tiramisu', 'NULL', 'Transgourmet', 20.0, 1);
+INSERT INTO public.stock VALUES (6, 'produit', 'Tarte au choix', 'NULL', 'Transgourmet', 20.0, 1);
+INSERT INTO public.stock VALUES (7, 'produit', 'Eau plate', 'NULL', 'Bideau Ets', 20.0, 1);
+INSERT INTO public.stock VALUES (8, 'produit', 'Eau gazeuse', 'NULL', 'Bideau Ets', 20.0, 1);
+INSERT INTO public.stock VALUES (9, 'produit', 'Coca-Cola', 'NULL', 'Bideau Ets', 20.0, 1);
+INSERT INTO public.stock VALUES (10, 'produit', 'Oasis tropical', 'NULL', 'Bideau Ets', 20.0, 1);
+INSERT INTO public.stock VALUES (11, 'ingredient', 'NULL', 'Pate a pizza', 'Transgourmet', 50.0, 1);
+INSERT INTO public.stock VALUES (12, 'ingredient', 'NULL', 'Coulis sauce tomate', 'Buisson', 50.0, 1);
+INSERT INTO public.stock VALUES (13, 'ingredient', 'NULL', 'Champignons de Paris', 'Buisson', 10.0, 1);
+INSERT INTO public.stock VALUES (14, 'ingredient', 'NULL', 'Mozzarella rapee', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (15, 'ingredient', 'NULL', 'Jambon en tranches', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (16, 'ingredient', 'NULL', 'Poulet en morceaux', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (17, 'ingredient', 'NULL', 'Lardons en dés', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (18, 'ingredient', 'NULL', 'Merguez	', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (19, 'ingredient', 'NULL', 'Saumon norvegien', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (20, 'ingredient', 'NULL', 'Reblochon', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (21, 'ingredient', 'NULL', 'Roquefort', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (22, 'ingredient', 'NULL', 'Fourme d_Ambert', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (23, 'ingredient', 'NULL', 'Tomates fraiches', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (24, 'ingredient', 'NULL', 'Oignons eminces', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (25, 'ingredient', 'NULL', 'Poivrons', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (26, 'ingredient', 'NULL', 'Artichauts', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (27, 'ingredient', 'NULL', 'Aubergines', 'Buisson', 30.0, 1);
+INSERT INTO public.stock VALUES (28, 'ingredient', 'NULL', 'Olives noires', 'Buisson', 10.0, 1);
+INSERT INTO public.stock VALUES (29, 'produit', 'Salade fraicheur', 'NULL', 'LC Primeur', 3.0, 2);
+INSERT INTO public.stock VALUES (30, 'produit', 'Salade chevre chaud', 'NULL', 'LC Primeur', 2.0, 2);
+INSERT INTO public.stock VALUES (31, 'produit', 'Breadsticks mozza', 'NULL', 'Pomona', 6.0, 2);
+INSERT INTO public.stock VALUES (32, 'produit', 'Glace au choix', 'NULL', 'Pomona', 12.0, 2);
+INSERT INTO public.stock VALUES (33, 'produit', 'Tiramisu', 'NULL', 'Transgourmet', 8.0, 2);
+INSERT INTO public.stock VALUES (34, 'produit', 'Tarte au choix', 'NULL', 'Transgourmet', 9.0, 2);
+INSERT INTO public.stock VALUES (35, 'produit', 'Eau plate', 'NULL', 'Bideau Ets', 4.0, 2);
+INSERT INTO public.stock VALUES (36, 'produit', 'Eau gazeuse', 'NULL', 'Bideau Ets', 11.0, 2);
+INSERT INTO public.stock VALUES (37, 'produit', 'Coca-Cola', 'NULL', 'Bideau Ets', 6.0, 2);
+INSERT INTO public.stock VALUES (38, 'produit', 'Oasis tropical', 'NULL', 'Bideau Ets', 18.0, 2);
+INSERT INTO public.stock VALUES (39, 'ingredient', 'NULL', 'Pate a pizza', 'Transgourmet', 30.7, 2);
+INSERT INTO public.stock VALUES (40, 'ingredient', 'NULL', 'Coulis sauce tomate', 'Buisson', 22.4, 2);
+INSERT INTO public.stock VALUES (41, 'ingredient', 'NULL', 'Champignons de Paris', 'Buisson', 7.3, 2);
+INSERT INTO public.stock VALUES (42, 'ingredient', 'NULL', 'Mozzarella rapee', 'Buisson', 15.6, 2);
+INSERT INTO public.stock VALUES (43, 'ingredient', 'NULL', 'Jambon en tranches', 'Buisson', 8.9, 2);
+INSERT INTO public.stock VALUES (44, 'ingredient', 'NULL', 'Poulet en morceaux', 'Buisson', 18.1, 2);
+INSERT INTO public.stock VALUES (45, 'ingredient', 'NULL', 'Lardons en dés', 'Buisson', 24.5, 2);
+INSERT INTO public.stock VALUES (46, 'ingredient', 'NULL', 'Merguez	', 'Buisson', 13.8, 2);
+INSERT INTO public.stock VALUES (47, 'ingredient', 'NULL', 'Saumon norvegien', 'Buisson', 11.2, 2);
+INSERT INTO public.stock VALUES (48, 'ingredient', 'NULL', 'Reblochon', 'Buisson', 23.4, 2);
+INSERT INTO public.stock VALUES (49, 'ingredient', 'NULL', 'Roquefort', 'Buisson', 22.6, 2);
+INSERT INTO public.stock VALUES (50, 'ingredient', 'NULL', 'Fourme d_Ambert', 'Buisson', 25.0, 2);
+INSERT INTO public.stock VALUES (51, 'ingredient', 'NULL', 'Tomates fraiches', 'Buisson', 8.6, 2);
+INSERT INTO public.stock VALUES (52, 'ingredient', 'NULL', 'Oignons eminces', 'Buisson', 11.9, 2);
+INSERT INTO public.stock VALUES (53, 'ingredient', 'NULL', 'Poivrons', 'Buisson', 18.7, 2);
+INSERT INTO public.stock VALUES (54, 'ingredient', 'NULL', 'Artichauts', 'Buisson', 27.1, 2);
+INSERT INTO public.stock VALUES (55, 'ingredient', 'NULL', 'Aubergines', 'Buisson', 26.4, 2);
+INSERT INTO public.stock VALUES (56, 'ingredient', 'NULL', 'Olives noires', 'Buisson', 3.8, 2);
+
+
+
+
+INSERT INTO public.produit VALUES (1, 'pizza', 'La Reine', 'Le grand classique incoutournable', 8.80, 10.0, 2);
+INSERT INTO public.produit VALUES (2, 'pizza', 'La Vegan', 'Il en faut pour tous les gouts', 7.10, 10.0, 6);
+INSERT INTO public.produit VALUES (3, 'pizza', 'La Saumon', 'Un vent de fraicheur de Scandinavie', 9.90, 10.0, 3);
+INSERT INTO public.produit VALUES (4, 'pizza', 'La Fromage', 'Pour les amoureux du terroir', 7.80, 10.0, 8);
+INSERT INTO public.produit VALUES (5, 'pizza', 'La Vorace', 'Pour les grands gaillards', 10.50, 10.0, 1);
+INSERT INTO public.produit VALUES (6, 'dessert', 'Tiramisu', 'Le dessert italien par excellence', 4.00, 10.0, 2);
+INSERT INTO public.produit VALUES (7, 'dessert', 'Glace au choix', 'Creme glacee ou sorbet', 3.50, 10.0, 5);
+INSERT INTO public.produit VALUES (8, 'dessert', 'Tarte au choix', 'Pomme ou chocolat selon les envies', 3.00, 10.0, 4);
+INSERT INTO public.produit VALUES (9, 'entree', 'Salade chevre chaud', 'Un melange chaud froid deconcertant', 5.50, 10.0, 7);
+INSERT INTO public.produit VALUES (10, 'entree', 'Salade fraicheur', 'Un rafraichissement en toute saison', 5.50, 10.0, 1);
+INSERT INTO public.produit VALUES (11, 'entree', 'Breadsticks mozza', 'Feront des merveilles en aperitif', 4.50, 10.0, 6);
+INSERT INTO public.produit VALUES (12, 'boisson', 'Eau plate', 'Desalterante a souhait', 1.50, 5.5, 8);
+INSERT INTO public.produit VALUES (13, 'boisson', 'Eau gazeuse', 'Les bulles font des miracles', 2.00, 5.5, 3);
+INSERT INTO public.produit VALUES (14, 'boisson', 'Coca-Cola', 'La boisson preferee des enfants', 2.50, 5.5, 5);
+INSERT INTO public.produit VALUES (15, 'boisson', 'Oasis tropical', 'Boisson sucree qui fait voyager', 2.50, 5.5, 4);
+
+
+
+
+INSERT INTO public.commande VALUES (1, '2019-10-30 12:16:55', 'livree', 'GARADIER', 'Pizza Reine+Coca-cola X2', 'MUKELE', '14,rue Daguerre 75014 PARIS', 15.00, 1, 3);
+INSERT INTO public.commande VALUES (2, '2019-10-30 12:17:41', 'livree', 'SEVERAC', 'Pizza Saumon+Salade Fraicheur', 'DHORASSO', '36,rue Ledru-Rollin 94200 IVRY-SUR-SEINE', 16.95, 2, 1);
+INSERT INTO public.commande VALUES (3, '2019-10-30 12:29:26', 'livree', 'MOATTI', 'Pizza Vorace+Eau gazeuse', 'BUFFON', '70,boulevard de l_Hopital 75013 PARIS', 13.60, 3, 4);
+INSERT INTO public.commande VALUES (4, '2019-10-30 12:36:02', 'livree', 'LIONS', 'Pizza Fromage+Breadstick mozza+Oasis Tropical', 'LIETARD', '14,rue du General Sarrail 69006 LYON', 16.20, 4, 6);
+INSERT INTO public.commande VALUES (5, '2019-10-30 12:41:58', 'livree', 'ROUSTAN', 'Pizza Vegan+Salade Fraicheur+Tiramisu', 'CORLOBE', '50,rue Toulouse Lautrec 33000 BORDEAUX', 18.25, 5, 7);
+INSERT INTO public.commande VALUES (6, '2019-10-30 12:48:37', 'livree', 'LATOURRE', 'Pizza Vorace+Glace au choix', 'ROBICHON', '8,rue de la Convention 75015 PARIS', 15.35, 6, 5);
+INSERT INTO public.commande VALUES (7, '2019-10-30 12:56:32', 'livree', 'GALLI', 'Pizza Reine+Salade chevre chaud X2', 'BUFFON', '90,avenue des Gobelins 75013 PARIS', 21.80, 7, 4);
+INSERT INTO public.commande VALUES (8, '2019-10-30 12:57:30', 'livree', 'SEBAOUN', 'Pizza Reine+Tarte au choix', 'MUKELE', '16,avenue du Maine 75014 PARIS', 13.00, 8, 3);
+INSERT INTO public.commande VALUES (9, '2019-10-30 13:01:42', 'livree', 'DENIS', 'Salade chevre chaud+eau gazeuse', 'KALOU', '30,boulevard Magenta 75010 PARIS', 8.15, 9, 2);
+INSERT INTO public.commande VALUES (10, '2019-10-30 13:12:12', 'livree', 'APPADOO', 'Pizza Saumon+Salade Fraicheur+Glace au choix', 'ROBICHON', '8,rue Blanche 75018 PARIS', 12.05, 10, 5);
+INSERT INTO public.commande VALUES (11, '2019-10-30 13:16:59', 'livree', 'CARRIERE', 'Pizza Reine+Oasis tropical X2', 'BERBERIAN', '2,rue du Couedic 44000 NANTES', 15.00, 11, 8);
+INSERT INTO public.commande VALUES (12, '2019-10-30 13:18:17', 'livree', 'HANRIOT', 'Salade Fraicheur+Tiramisu+Eau plate', 'BERBERIAN', '47,boulevard des Ducs 44000 NANTES', 12.05, 12, 8);
+INSERT INTO public.commande VALUES (13, '2019-10-30 13:29:51', 'livree', 'DACOURT', 'Pizza Fromage+Breadstick mozza+Coca-cola', 'DHORASSO', '41,rue Mouffetard 75005 PARIS', 16.20, 13, 1);
+INSERT INTO public.commande VALUES (14, '2019-10-30 13:36:33', 'livree', 'KOMENDA', 'Pizza Reine X2', 'LIETARD', '17,rue des Artistes 69002 LYON', 19.40, 14, 6);
+INSERT INTO public.commande VALUES (15, '2019-10-30 13:37:41', 'livree', 'GOUSSOT', 'Salade Fraicheur+Eau plate', 'KALOU', '16,rue de Richelieu 75002 PARIS', 7.65, 15, 2);
+INSERT INTO public.commande VALUES (16, '2019-10-30 13:46:12', 'livree', 'SALESSES', 'Pizza Vegan+Tarte au choix+Coca-cola', 'CORLOBE', '23,boulevard des Bourgeois 33000 BORDEAUX', 13.75, 16, 7);
+INSERT INTO public.commande VALUES (17, '2019-10-30 19:38:54', 'livree', 'HANRIOT', 'Pizza Saumon+Coca-cola', 'BERBERIAN', '47,boulevard des Ducs 44000 NANTES', 13.55, 12, 8);
+INSERT INTO public.commande VALUES (18, '2019-10-30 19:46:02', 'livree', 'SEBAOUN', 'Pizza Fromage+Oasis Tropical', 'MUKELE', '16,avenue du Maine 75014 PARIS', 11.25, 8, 3);
+INSERT INTO public.commande VALUES (19, '2019-10-30 19:59:35', 'livree', 'MOATTI', 'Pizza Vegan+Eau plate', 'BUFFON', '70,boulevard de l_Hopital 75013 PARIS', 9.40, 3, 4);
+INSERT INTO public.commande VALUES (20, '2019-10-30 20:06:47', 'livree', 'GOUSSOT', 'Pizza Reine+Glace au choix x2', 'KALOU', '2,quai François Mauriac 75013 PARIS', 17.40, 15, 2);
+INSERT INTO public.commande VALUES (21, '2019-10-30 20:12:00', 'livree', 'ROUSTAN', 'Pizza Vorace+Breadstick mozza', 'CORLOBE', '50,rue Toulouse Lautrec 33000 BORDEAUX', 16.45, 5, 7);
+INSERT INTO public.commande VALUES (22, '2019-10-30 20:26:24', 'livree', 'LATOURRE', 'Salade fraicheur+Tarte au choix+Eau plate', 'ROBICHON', '32,rue du Colysee 75008 PARIS', 10.95, 6, 5);
+INSERT INTO public.commande VALUES (23, '2019-10-30 20:26:38', 'livree', 'GARADIER', 'Pizza Fromage+Tiramisu', 'MUKELE', '14,rue Daguerre 75014 PARIS', 13.00, 1, 3);
+INSERT INTO public.commande VALUES (24, '2019-10-30 20:39:43', 'livree', 'GALLI', 'Salade chevre chaud+Eau gazeuse', 'BUFFON', '111,avenue de France 75013 PARIS', 8.15, 7, 4);
+INSERT INTO public.commande VALUES (25, '2019-10-30 20:59:13', 'livree', 'DACOURT', 'Pizza Vegan X 3', 'DHORASSO', '41,rue Mouffetard 75005 PARIS', 23.40, 13, 1);
+INSERT INTO public.commande VALUES (26, '2019-10-30 21:10:52', 'livree', 'APPADOO', 'Pizza Vorace+Coca-Cola', 'ROBICHON', '8,rue Blanche 75018 PARIS', 14.15, 10, 5);
+INSERT INTO public.commande VALUES (27, '2019-10-30 21:24:24', 'livree', 'DENIS', 'Pizza Reine+Salade fraicheur', 'KALOU', '30,boulevard Magenta 75010 PARIS', 15.75, 9, 2);
+INSERT INTO public.commande VALUES (28, '2019-10-30 21:39:41', 'livree', 'SEVERAC', 'Salade Fraicheur X2+Breadstick mozza X2', 'DHORASSO', '12,place d_Italie 75013 PARIS', 22.00, 2, 1);
+
+
+
+
+
+
+
+INSERT INTO public.ligne_de_commande VALUES (1, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (1, 14, 'Coca-cola', 2.65, 2);
+INSERT INTO public.ligne_de_commande VALUES (2, 3, 'Pizza Saumon', 10.90, 1);
+INSERT INTO public.ligne_de_commande VALUES (2, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (3, 5, 'Pizza Vorace', 11.50, 1);
+INSERT INTO public.ligne_de_commande VALUES (3, 13, 'Eau gazeuse', 2.10, 1);
+INSERT INTO public.ligne_de_commande VALUES (4, 4, 'Pizza Fromage', 8.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (4, 11, 'Breadstick mozza', 4.95, 1);
+INSERT INTO public.ligne_de_commande VALUES (4, 15, 'Oasis Tropical', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (5, 2, 'Pizza Vegan', 7.80, 1);
+INSERT INTO public.ligne_de_commande VALUES (5, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (5, 6, 'Tiramisu', 4.40, 1);
+INSERT INTO public.ligne_de_commande VALUES (6, 5, 'Pizza Vorace', 11.50, 1);
+INSERT INTO public.ligne_de_commande VALUES (6, 7, 'Glace au choix', 3.85, 1);
+INSERT INTO public.ligne_de_commande VALUES (7, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (7, 9, 'Salade chevre chaud', 6.05, 2);
+INSERT INTO public.ligne_de_commande VALUES (8, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (8, 8, 'Tarte au choix', 3.30, 1);
+INSERT INTO public.ligne_de_commande VALUES (9, 9, 'Salade chevre chaud', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (9, 13, 'Eau gazeuse', 2.10, 1);
+INSERT INTO public.ligne_de_commande VALUES (10, 3, 'Pizza Saumon', 10.90, 1);
+INSERT INTO public.ligne_de_commande VALUES (10, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (10, 7, 'Glace au choix', 3.85, 1);
+INSERT INTO public.ligne_de_commande VALUES (11, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (11, 15, 'Oasis Tropical', 2.65, 2);
+INSERT INTO public.ligne_de_commande VALUES (12, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (12, 6, 'Tiramisu', 4.40, 1);
+INSERT INTO public.ligne_de_commande VALUES (12, 12, 'Eau plate', 1.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (13, 4, 'Pizza Fromage', 8.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (13, 11, 'Breadstick mozza', 4.95, 1);
+INSERT INTO public.ligne_de_commande VALUES (13, 14, 'Coca-cola', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (14, 1, 'Pizza Reine', 9.70, 2);
+INSERT INTO public.ligne_de_commande VALUES (15, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (15, 12, 'Eau plate', 1.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (16, 2, 'Pizza Vegan', 7.80, 1);
+INSERT INTO public.ligne_de_commande VALUES (16, 8, 'Tarte au choix', 3.30, 1);
+INSERT INTO public.ligne_de_commande VALUES (16, 14, 'Coca-cola', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (17, 3, 'Pizza Saumon', 10.90, 1);
+INSERT INTO public.ligne_de_commande VALUES (17, 14, 'Coca-cola', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (18, 4, 'Pizza Fromage', 8.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (18, 15, 'Oasis Tropical', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (19, 2, 'Pizza Vegan', 7.80, 1);
+INSERT INTO public.ligne_de_commande VALUES (19, 12, 'Eau plate', 1.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (20, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (20, 7, 'Glace au choix', 3.85, 2);
+INSERT INTO public.ligne_de_commande VALUES (21, 5, 'Pizza Vorace', 11.50, 1);
+INSERT INTO public.ligne_de_commande VALUES (21, 11, 'Breadstick mozza', 4.95, 1);
+INSERT INTO public.ligne_de_commande VALUES (22, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (22, 8, 'Tarte au choix', 3.30, 1);
+INSERT INTO public.ligne_de_commande VALUES (22, 12, 'Eau plate', 1.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (23, 4, 'Pizza Fromage', 8.60, 1);
+INSERT INTO public.ligne_de_commande VALUES (23, 6, 'Tiramisu', 4.40, 1);
+INSERT INTO public.ligne_de_commande VALUES (24, 9, 'Salade chevre chaud', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (24, 13, 'Eau gazeuse', 2.10, 1);
+INSERT INTO public.ligne_de_commande VALUES (25, 2, 'Pizza Vegan', 7.80, 3);
+INSERT INTO public.ligne_de_commande VALUES (26, 5, 'Pizza Vorace', 11.50, 1);
+INSERT INTO public.ligne_de_commande VALUES (26, 14, 'Coca-cola', 2.65, 1);
+INSERT INTO public.ligne_de_commande VALUES (27, 1, 'Pizza Reine', 9.70, 1);
+INSERT INTO public.ligne_de_commande VALUES (27, 10, 'Salade fraicheur', 6.05, 1);
+INSERT INTO public.ligne_de_commande VALUES (28, 10, 'Salade fraicheur', 6.05, 2);
+INSERT INTO public.ligne_de_commande VALUES (28, 11, 'Breadstick mozza', 4.95, 2);
+
+
+
+
+
+INSERT INTO public.adresse VALUES (1, 'GARADIER', 62, 'Rue Daguerre', 75014, 'PARIS', 1, 1);
+INSERT INTO public.adresse VALUES (2, 'SEVERAC', 36, 'Rue Ledru-Rollin', 94200, 'IVRY-SUR-SEINE', 2, 2);
+INSERT INTO public.adresse VALUES (3, 'MOATTI', 70, 'Boulevard de l_Hopital', 75013, 'PARIS', 3, 3);
+INSERT INTO public.adresse VALUES (4, 'LIONS', 14, 'Rue du Général Sarrail', 69006, 'LYON', 4, 4);
+INSERT INTO public.adresse VALUES (5, 'ROUSTAN', 50, 'Rue Toulouse Lautrec', 33000, 'BORDEAUX', 5, 5);
+INSERT INTO public.adresse VALUES (6, 'LATOURRE', 8, 'Rue de la Convention', 75015, 'PARIS', 6, 6);
+INSERT INTO public.adresse VALUES (7, 'GALLI', 90, 'Avenue des Gobelins', 75013, 'PARIS', 7, 7);
+INSERT INTO public.adresse VALUES (8, 'SEBAOUN', 16, 'Avenue du Maine', 75014, 'PARIS', 8, 8);
+INSERT INTO public.adresse VALUES (9, 'DENIS', 30, 'Boulevard Magenta', 75010, 'PARIS', 9, 9);
+INSERT INTO public.adresse VALUES (10, 'APPADOO', 5, 'Rue Blanche', 75018, 'PARIS', 10, 10);
+INSERT INTO public.adresse VALUES (11, 'CARRIERE', 2, 'Rue du Couedic ', 44000, 'NANTES', 11, 11);
+INSERT INTO public.adresse VALUES (12, 'HANRIOT', 47, 'Boulevard des Ducs', 44000, 'NANTES', 12, 12);
+INSERT INTO public.adresse VALUES (13, 'DACOURT', 41, 'Rue Mouffetard', 75005, 'PARIS', 13, 13);
+INSERT INTO public.adresse VALUES (14, 'KOMENDA', 17, 'rue des Artistes', 69002, 'LYON', 14, 14);
+INSERT INTO public.adresse VALUES (15, 'GOUSSOT', 16, 'Rue de Richelieu', 75002, 'PARIS', 15, 15);
+INSERT INTO public.adresse VALUES (16, 'SALESSES', 23, 'Boulevard des Bourgeois', 33000, 'BORDEAUX', 16, 16);
+INSERT INTO public.adresse VALUES (17, 'GOUSSOT', 2, 'Quai Francois Mauriac', 75013, 'PARIS', 20, 15);
+INSERT INTO public.adresse VALUES (18, 'LATOURRE', 32, 'Rue du Colysee', 75008, 'PARIS', 22, 6);
+INSERT INTO public.adresse VALUES (19, 'SEVERAC', 12, 'Place d_Italie', 75013, 'PARIS', 28, 2);
+
+
+
+
+
+
+
+INSERT INTO public.livraison VALUES (1, '2019-10-30 12:46:55', 'HAKMOUNI', 'GARADIER', '14,rue Daguerre 75014 PARIS', 1, 1);
+INSERT INTO public.livraison VALUES (2, '2019-10-30 12:47:41', 'OKOCHA', 'SEVERAC', '36,rue Ledru-Rollin 94200 IVRY-SUR-SEINE', 2, 2);
+INSERT INTO public.livraison VALUES (3, '2019-10-30 12:59:26', 'VERGNIAUD', 'MOATTI', '70,boulevard de l_Hopital 75013 PARIS', 3, 3);
+INSERT INTO public.livraison VALUES (4, '2019-10-30 13:06:02', 'BATTAIL', 'LIONS', '14,rue du General Sarrail 69006 LYON', 4, 4);
+INSERT INTO public.livraison VALUES (5, '2019-10-30 13:11:58', 'AMZAL', 'ROUSTAN', '50,rue Toulouse Lautrec 33000 BORDEAUX', 5, 5);
+INSERT INTO public.livraison VALUES (6, '2019-10-30 13:18:37', 'BELMADI', 'LATOURRE', '8,rue de la Convention 75015 PARIS', 6, 6);
+INSERT INTO public.livraison VALUES (7, '2019-10-30 13:26:32', 'VERGNIAUD', 'GALLI', '90,avenue des Gobelins 75013 PARIS', 7, 7);
+INSERT INTO public.livraison VALUES (8, '2019-10-30 13:27:30', 'HAKMOUNI', 'SEBAOUN', '16,avenue du Maine 75014 PARIS', 8, 8);
+INSERT INTO public.livraison VALUES (9, '2019-10-30 13:31:42', 'BENARBIA', 'DENIS', '30,boulevard Magenta 75010 PARIS', 9, 9);
+INSERT INTO public.livraison VALUES (10, '2019-10-30 13:42:12', 'BELMADI', 'APPADOO', '8,rue Blanche 75018 PARIS', 10, 10);
+INSERT INTO public.livraison VALUES (11, '2019-10-30 13:46:59', 'JERBI', 'CARRIERE', '2,rue du Couedic 44000 NANTES', 11, 11);
+INSERT INTO public.livraison VALUES (12, '2019-10-30 13:48:17', 'JERBI', 'HANRIOT', '47,boulevard des Ducs 44000 NANTES', 12, 12);
+INSERT INTO public.livraison VALUES (13, '2019-10-30 13:59:51', 'OKOCHA', 'DACOURT', '41,rue Mouffetard 75005 PARIS', 13, 13);
+INSERT INTO public.livraison VALUES (14, '2019-10-30 14:06:33', 'BATTAIL', 'KOMENDA', '17,rue des Artistes 69002 LYON', 14, 14);
+INSERT INTO public.livraison VALUES (15, '2019-10-30 14:07:41', 'BENARBIA', 'GOUSSOT', '16,rue de Richelieu 75002 PARIS', 15, 15);
+INSERT INTO public.livraison VALUES (16, '2019-10-30 14:16:12', 'AMZAL', 'SALESSES', '23,boulevard des Bourgeois 33000 BORDEAUX', 16, 16);
+INSERT INTO public.livraison VALUES (17, '2019-10-30 20:08:54', 'JERBI', 'HANRIOT', '47,boulevard des Ducs 44000 NANTES', 12, 17);
+INSERT INTO public.livraison VALUES (18, '2019-10-30 20:16:02', 'HAKMOUNI', 'SEBAOUN', '16,avenue du Maine 75014 PARIS', 8, 18);
+INSERT INTO public.livraison VALUES (19, '2019-10-30 20:29:35', 'VERGNIAUD', 'MOATTI', '70,boulevard de l_Hopital 75013 PARIS', 3, 19);
+INSERT INTO public.livraison VALUES (20, '2019-10-30 20:36:47', 'BENARBIA', 'GOUSSOT', '2,quai François Mauriac 75013 PARIS', 15, 20);
+INSERT INTO public.livraison VALUES (21, '2019-10-30 20:42:00', 'AMZAL', 'ROUSTAN', '50,rue Toulouse Lautrec 33000 BORDEAUX', 5, 21);
+INSERT INTO public.livraison VALUES (22, '2019-10-30 20:56:24', 'BELMADI', 'LATOURRE', '32,rue du Colysee 75008 PARIS', 6, 22);
+INSERT INTO public.livraison VALUES (23, '2019-10-30 20:56:38', 'HAKMOUNI', 'GARADIER', '14,rue Daguerre 75014 PARIS', 1, 23);
+INSERT INTO public.livraison VALUES (24, '2019-10-30 21:09:43', 'VERGNIAUD', 'GALLI', '111,avenue de France 75013 PARIS', 7, 24);
+INSERT INTO public.livraison VALUES (25, '2019-10-30 21:29:13', 'OKOCHA', 'DACOURT', '41,rue Mouffetard 75005 PARIS', 13, 25);
+INSERT INTO public.livraison VALUES (26, '2019-10-30 21:40:52', 'BELMADI', 'APPADOO', '8,rue Blanche 75018 PARIS', 10, 26);
+INSERT INTO public.livraison VALUES (27, '2019-10-30 21:54:24', 'BENARBIA', 'DENIS', '30,boulevard Magenta 75010 PARIS', 9, 27);
+INSERT INTO public.livraison VALUES (28, '2019-10-30 22:09:41', 'OKOCHA', 'SEVERAC', '12,place d_Italie 75013 PARIS', 2, 28);
+
+
+
+
+
+
+
+
+INSERT INTO public.facture VALUES (1, '2019-10-30 12:46:55', 'GARADIER', 'Pizza Reine+Coca-cola', 12.35, 1);
+INSERT INTO public.facture VALUES (2, '2019-10-30 12:47:41', 'SEVERAC', 'Pizza Saumon+Salade Fraicheur', 16.95, 2);
+INSERT INTO public.facture VALUES (3, '2019-10-30 12:59:26', 'MOATTI', 'Pizza Vorace+Eau gazeuse', 13.60, 3);
+INSERT INTO public.facture VALUES (4, '2019-10-30 13:06:02', 'LIONS', 'Pizza Fromage+Breadstick mozza+Oasis Tropical', 16.20, 4);
+INSERT INTO public.facture VALUES (5, '2019-10-30 13:11:58', 'ROUSTAN', 'Pizza Vegan+Salade Fraicheur+Tiramisu', 18.25, 5);
+INSERT INTO public.facture VALUES (6, '2019-10-30 13:18:37', 'LATOURRE', 'Pizza Vorace+Glace au choix', 15.35, 6);
+INSERT INTO public.facture VALUES (7, '2019-10-30 13:26:32', 'GALLI', 'Pizza Reine+Salade chevre chaud', 15.75, 7);
+INSERT INTO public.facture VALUES (8, '2019-10-30 13:27:30', 'SEBAOUN', 'Pizza Reine+Tarte au choix', 13.00, 8);
+INSERT INTO public.facture VALUES (9, '2019-10-30 13:31:42', 'DENIS', 'Salade chevre chaud+eau gazeuse', 8.15, 9);
+INSERT INTO public.facture VALUES (10, '2019-10-30 13:42:12', 'APPADOO', 'Pizza Saumon+Salade Fraicheur+Glace au choix', 12.05, 10);
+INSERT INTO public.facture VALUES (11, '2019-10-30 13:46:59', 'CARRIERE', 'Pizza Reine+Oasis tropical', 12.35, 11);
+INSERT INTO public.facture VALUES (12, '2019-10-30 13:48:17', 'HANRIOT', 'Salade Fraicheur+Tiramisu+Eau plate', 12.05, 12);
+INSERT INTO public.facture VALUES (13, '2019-10-30 13:59:51', 'DACOURT', 'Pizza Fromage+Breadstick mozza+Coca-cola', 16.20, 13);
+INSERT INTO public.facture VALUES (14, '2019-10-30 14:06:33', 'KOMENDA', 'Pizza Reine', 9.70, 14);
+INSERT INTO public.facture VALUES (15, '2019-10-30 14:07:41', 'GOUSSOT', 'Salade Fraicheur+Eau plate', 7.65, 15);
+INSERT INTO public.facture VALUES (16, '2019-10-30 14:16:12', 'SALESSES', 'Pizza Vegan+Tarte au choix+Coca-cola', 13.75, 16);
+INSERT INTO public.facture VALUES (17, '2019-10-30 20:08:54', 'HANRIOT', 'Pizza Saumon+Coca-cola', 13.55, 12);
+INSERT INTO public.facture VALUES (18, '2019-10-30 20:16:02', 'SEBAOUN', 'Pizza Fromage+Oasis Tropical', 11.25, 8);
+INSERT INTO public.facture VALUES (19, '2019-10-30 20:29:35', 'MOATTI', 'Pizza Vegan+Eau plate', 9.40, 3);
+INSERT INTO public.facture VALUES (20, '2019-10-30 20:36:47', 'GOUSSOT', 'Pizza Reine+Glace au choix', 13.55, 15);
+INSERT INTO public.facture VALUES (21, '2019-10-30 20:42:00', 'ROUSTAN', 'Pizza Vorace+Breadstick mozza', 16.45, 5);
+INSERT INTO public.facture VALUES (22, '2019-10-30 20:56:24', 'LATOURRE', 'Salade fraicheur+Tarte au choix+Eau plate', 10.95, 6);
+INSERT INTO public.facture VALUES (23, '2019-10-30 20:56:38', 'GARADIER', 'Pizza Fromage+Tiramisu', 13.00, 1);
+INSERT INTO public.facture VALUES (24, '2019-10-30 21:09:43', 'GALLI', 'Salade chevre chaud+Eau gazeuse', 8.15, 7);
+INSERT INTO public.facture VALUES (25, '2019-10-30 21:29:13', 'DACOURT', 'Pizza Vegan+Eau gazeuse', 9.90, 13);
+INSERT INTO public.facture VALUES (26, '2019-10-30 21:40:52', 'APPADOO', 'Pizza Vorace+Coca-Cola', 14.15, 10);
+INSERT INTO public.facture VALUES (27, '2019-10-30 21:54:24', 'DENIS', 'Pizza Reine+Salade fraicheur', 15.75, 9);
+INSERT INTO public.facture VALUES (28, '2019-10-30 22:09:41', 'SEVERAC', 'Salade Fraicheur+Breadstick mozza', 11.00, 2);
+
+
+
